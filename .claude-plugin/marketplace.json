@@ -1,0 +1,17 @@
+{
+  "name": "creditclaw",
+  "owner": {
+    "name": "CreditClaw",
+    "url": "https://creditclaw.com"
+  },
+  "plugins": [
+    {
+      "name": "creditclaw",
+      "source": {
+        "source": "github",
+        "repo": "rcgalbo/creditclaw-skill"
+      },
+      "description": "Give your AI agent a payment card with spending controls, secure checkout, and merchant login management"
+    }
+  ]
+}
