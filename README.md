@@ -6,7 +6,7 @@ Claude Code / Claude Cowork plugin marketplace for CreditClaw.
 
 ```bash
 # Add the marketplace
-/plugin marketplace add rcgalbo/creditclaw-marketplace
+/plugin marketplace add CreditClaw/marketplace
 
 # Install CreditClaw
 /plugin install creditclaw@creditclaw
@@ -21,4 +21,4 @@ Claude Code / Claude Cowork plugin marketplace for CreditClaw.
 ## Links
 
 - https://creditclaw.com
-- https://github.com/rcgalbo/creditclaw-skill
+- https://github.com/CreditClaw/skill

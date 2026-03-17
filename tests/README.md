@@ -74,7 +74,7 @@ tests/
 
 | Platform | Required Files | Install Mechanism |
 |----------|---------------|-------------------|
-| Claude Code | `plugin.json`, `skill.json`, `SKILL.md` | `/plugin marketplace add rcgalbo/creditclaw-marketplace` |
+| Claude Code | `plugin.json`, `skill.json`, `SKILL.md` | `/plugin marketplace add CreditClaw/marketplace` |
 | Claude Cowork | Same as Claude Code | Same plugin system |
 | OpenClaw | `skill.json`, `SKILL.md` | Drop into `~/.openclaw/skills/creditclaw/` |
 | Moltbook | `skill.json`, `SKILL.md` | Same path as OpenClaw |

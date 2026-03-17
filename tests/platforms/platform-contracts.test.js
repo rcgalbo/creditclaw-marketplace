@@ -13,15 +13,15 @@ import { fetchSkillFile, parseSkillFrontmatter } from "../lib/fetch-skill.js";
 
 // ---------------------------------------------------------------------------
 // Claude Code + Claude Cowork
-// Install: /plugin marketplace add rcgalbo/creditclaw-marketplace
+// Install: /plugin marketplace add CreditClaw/marketplace
 //          /plugin install creditclaw@creditclaw
 // ---------------------------------------------------------------------------
 describe("Claude Code / Claude Cowork — plugin contract", () => {
   it("marketplace.json source.repo is accessible on GitHub", async () => {
-    // The marketplace JSON points to rcgalbo/creditclaw-skill.
+    // The marketplace JSON points to CreditClaw/skill.
     // Verify the repo root is reachable.
     const res = await fetch(
-      "https://github.com/rcgalbo/creditclaw-skill",
+      "https://github.com/CreditClaw/skill",
       { redirect: "follow" }
     );
     expect(res.status).toBe(200);
@@ -53,7 +53,7 @@ describe("Claude Code / Claude Cowork — plugin contract", () => {
   });
 
   // MANUAL VERIFICATION REQUIRED:
-  // 1. In a Claude Code session: /plugin marketplace add rcgalbo/creditclaw-marketplace
+  // 1. In a Claude Code session: /plugin marketplace add CreditClaw/marketplace
   // 2. /plugin install creditclaw@creditclaw
   // 3. Ask: "Register me with CreditClaw as bot 'my-agent', email me@example.com"
   // 4. Verify: agent calls POST /bots/register and returns bot_id + claim_url

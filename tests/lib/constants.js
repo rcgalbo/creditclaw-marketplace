@@ -3,7 +3,7 @@
  * All URLs and expected shapes are derived from live API probing.
  */
 
-export const SKILL_REPO_BASE = "https://raw.githubusercontent.com/rcgalbo/creditclaw-skill/main";
+export const SKILL_REPO_BASE = "https://raw.githubusercontent.com/CreditClaw/skill/main";
 export const API_BASE = "https://creditclaw.com/api/v1";
 
 /**
@@ -23,7 +23,7 @@ export const SKILL_FILES = {
 export const PLATFORM_REQUIREMENTS = {
   "claude-code": {
     requiredFiles: ["skill.json", ".claude-plugin/plugin.json", "skills/creditclaw/SKILL.md"],
-    installMechanism: "plugin marketplace (rcgalbo/creditclaw-marketplace)",
+    installMechanism: "plugin marketplace (CreditClaw/marketplace)",
     testable: "format-validation", // can't automate plugin install
   },
   "claude-cowork": {
