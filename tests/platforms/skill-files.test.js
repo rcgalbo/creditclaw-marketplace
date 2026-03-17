@@ -150,7 +150,7 @@ describe(".claude-plugin/marketplace.json — marketplace registry format", () =
     );
     const plugin = json.plugins.find((p) => p.name === "creditclaw");
     expect(plugin).toBeTruthy();
-    expect(plugin.source.repo).toMatch(/creditclaw-skill/);
+    expect(plugin.source.repo).toMatch(/CreditClaw\/skill/);
   });
 });
 
