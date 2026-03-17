@@ -1,0 +1,21 @@
+{
+  "name": "creditclaw-marketplace",
+  "version": "1.0.0",
+  "description": "Claude Code / Claude Cowork plugin marketplace for CreditClaw — includes cross-platform skill test suite.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:api": "vitest run tests/api/",
+    "test:platforms": "vitest run tests/platforms/",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcgalbo/creditclaw-marketplace.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.1.0"
+  }
+}
